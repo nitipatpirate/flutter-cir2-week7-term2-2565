@@ -18,8 +18,12 @@ class ListViewMenuPage extends StatelessWidget {
           },
           itemBuilder: (context,index){
             return ListTile(
+              title: Text('menu-1'),
+              subtitle: Text('sub-1'),
+              leading: CircleAvatar(child: Icon(Icons.person)),
+              trailing: Icon(Icons.arrow_right),
               onTap:(){
-                debugPrint('menu 1');
+                debugPrint('menu-1');
               }
             );
           },
