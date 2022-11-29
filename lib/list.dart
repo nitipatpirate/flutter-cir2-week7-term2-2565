@@ -19,7 +19,7 @@ class ListPage extends StatelessWidget {
               color: Colors.amber[600],
               child: Center(child: Text("Entry A")),
             ),
-            Container(git init
+            Container(
               height: 50,
               color: Colors.amber[500],
               child: Center(child: Text("WEntry B")),
